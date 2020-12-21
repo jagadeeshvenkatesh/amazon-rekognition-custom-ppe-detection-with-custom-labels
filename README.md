@@ -1,6 +1,6 @@
-# Amazon Rekognition Custom PPE Detection Demo Using Custom Labels
+# Amazon Rekognition Custom PPE Detection Using Custom Labels
 
-This demo solution demonstrates how to train a custom model to detect a specific PPE requirement, **High Visibility Safety Vest**. It uses a combination of [Amazon Rekognition Labels Detection](https://docs.aws.amazon.com/rekognition/latest/dg/labels.html) and [Amazon Rekognition Custom Labels](https://aws.amazon.com/rekognition/custom-labels-features/) to prepare and train a model to identify an individual who is wearing a vest or not.
+This solution demonstrates how to train a custom model to detect a specific PPE requirement, **High Visibility Safety Vest**. It uses a combination of [Amazon Rekognition Labels Detection](https://docs.aws.amazon.com/rekognition/latest/dg/labels.html) and [Amazon Rekognition Custom Labels](https://aws.amazon.com/rekognition/custom-labels-features/) to prepare and train a model to identify an individual who is wearing a vest or not.
 
 It consists of two main workflows: **Training** and **Analysis**. The former helps you to prepare dataset, train and run a Custom Labels model; the latter provides an easy way to analyze images using the model. The solution also provides a simple web interface to guide you through both training and analysis processes.
 
